@@ -7,21 +7,18 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sprite1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\sMoveLeft.gml</script>
-    <script>scripts\sMoveForward.gml</script>
-    <script>scripts\sMoveRight.gml</script>
-    <script>scripts\sMoveBackward.gml</script>
-  </scripts>
   <objects name="objects">
     <object>objects\oPlayer</object>
+    <object>objects\oTemp</object>
+    <object>objects\oCamera</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rInitialise</room>
     <room>rooms\rRoom01</room>
+    <room>rooms\rInitialise</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
