@@ -6,19 +6,25 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\sPlayerLegs</sprite>
+    <sprite>sprites\sTemp</sprite>
     <sprite>sprites\sPlayer</sprite>
-    <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprite4</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\TO_DO.gml</script>
+  </scripts>
   <objects name="objects">
+    <object>objects\oPlayerLegs</object>
     <object>objects\oPlayer</object>
     <object>objects\oTemp</object>
     <object>objects\oCamera</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rRoom01</room>
     <room>rooms\rInitialise</room>
+    <room>rooms\rRoom01</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
