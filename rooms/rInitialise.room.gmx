@@ -11,6 +11,9 @@
   <colour>12632256</colour>
   <showcolour>0</showcolour>
   <code>//a place to declare global variables and constants
+global.sqrt2 = sqrt(2);
+health = 100;
+global.paused = false;
 
 room_goto_next();</code>
   <enableViews>0</enableViews>

@@ -7,20 +7,27 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sPlayerLegs</sprite>
-    <sprite>sprites\sTemp</sprite>
     <sprite>sprites\sPlayer</sprite>
-    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\sEnemy01Legs</sprite>
+    <sprite>sprites\sEnemy01</sprite>
+    <sprite>sprites\sDead</sprite>
+    <sprite>sprites\sPause</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bTile01</background>
+    <background>background\bTile02</background>
+  </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\TO_DO.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\oPlayerLegs</object>
     <object>objects\oPlayer</object>
-    <object>objects\oTemp</object>
+    <object>objects\oEnemy01Legs</object>
+    <object>objects\oEnemy01</object>
     <object>objects\oCamera</object>
+    <object>objects\oHealthbar</object>
+    <object>objects\oDeadText</object>
+    <object>objects\oPause</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rInitialise</room>

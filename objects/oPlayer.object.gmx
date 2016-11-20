@@ -53,15 +53,18 @@ y = window_get_height()/2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//movement done in oPlayerLegs
-//stay at same xy of legs
-x = oPlayerLegs.x;
-y = oPlayerLegs.y;
-
-//look at mouse
-image_angle = point_direction(x, y, mouse_x, mouse_y);
-direction = point_direction(x, y, mouse_x, mouse_y);
-
+            <string>if (global.paused == false)
+{
+    //movement done in oPlayerLegs
+    //stay on top of the same xy of legs
+    x = oPlayerLegs.x;
+    y = oPlayerLegs.y;
+    depth = oPlayerLegs.depth + -1;
+    
+    //look at mouse
+    image_angle = point_direction(x, y, mouse_x, mouse_y);
+    direction = point_direction(x, y, mouse_x, mouse_y);
+}
 </string>
           </argument>
         </arguments>
