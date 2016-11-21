@@ -18,7 +18,6 @@
     <background>background\bTile02</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\oPlayerLegs</object>
     <object>objects\oPlayer</object>
